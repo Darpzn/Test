@@ -1,0 +1,206 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<header>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</header>
+
+<body>
+
+
+    <!--Filter-->
+    <section class="filter">
+        <div class="grid">
+            <div class="div">
+                <label for="buscar"><span><i class="bx bx-search"></i></span></label>
+                <input type="text" id="buscar" placeholder="Buscar producto...">
+            </div>
+            <div class="category">
+                <select id="category" onclick="categoryValue()">
+                    <option value="">Marcas</option>
+                    <option value="rolex">Rolex</option>
+                    <option value="omega">Omega</option>
+                    <option value="audemars">Audemars</option>
+                    <option value="rolexDay">Rolex Day</option>
+                    <option value="hublot">Hublot</option>
+                    <option value="tag">Tag Heuer</option>
+                </select>
+            </div>
+        </div>
+    </section>
+
+    <div class="conte">
+        <div class="card">
+
+            <img src="https://clipground.com/images/camara-fotografica-png-19.jpg" alt="" height="300" width="300" />
+        </div>
+        <div class="information">
+            <h1>camara de foto </h1>
+            <p>fecha de salida: 12/5</p>
+        </div>
+        <div class="precio">
+            <div class="box-precio">
+                <span><b>3500 pesos</b></span>
+                <span class="shoping"><i class="fas fa -cart-plus"></i></span>
+            </div>
+        </div>
+        <script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
+data-preference-id="218039984-777f6886-5649-409e-a8fc-514b6a8be98f" data-source="button">
+</script>
+
+
+
+    </div>
+
+    <div class="conte">
+        <div class="card">
+
+            <img src="https://2.bp.blogspot.com/-yFFcmEDmmpY/WJiT25si92I/AAAAAAAAAig/jplHe9wzdrcduqTydRpnXD5EJdvT0LHdgCPcB/s1600/Qos_X70_04.jpg" alt="" height="300" width="300" />
+        </div>
+        <div class="information">
+            <h1>camara de foto </h1>
+            <p>fecha de salida: 12/5</p>
+        </div>
+        <div class="precio">
+            <div class="box-precio">
+                <span><b>3500 pesos</b></span>
+                <span class="shoping"><i class="fas fa -cart-plus"></i></span>
+            </div>
+        </div>
+        <script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
+data-preference-id="218039984-7ecccff5-59db-4cc5-8069-0a7954e87f4e" data-source="button">
+</script>
+
+
+
+    </div>
+
+    <div class="conte">
+        <div class="card">
+
+            <img src="https://th.bing.com/th/id/OIP.LirIdzACSgD3tUvaWpylIQHaEK?pid=ImgDet&rs=1" alt="" height="300" width="300" />
+        </div>
+        <div class="information">
+            <h1>camara de foto </h1>
+            <p>fecha de salida: 12/5</p>
+        </div>
+        <div class="precio">
+            <div class="box-precio">
+                <span><b>3500 pesos</b></span>
+                <span class="shoping"><i class="fas fa -cart-plus"></i></span>
+            </div>
+        </div>
+        <script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
+data-preference-id="218039984-9508093d-f685-4f64-a902-85d909da5cdc" data-source="button">
+</script>
+
+
+
+    </div>
+
+
+
+    <div class="conte">
+        <div class="card">
+
+            <img src="https://cdn4.chrono24.com/images/topmodels/2875-7wlcl6ogfoc0qxg22ox6up9m-Original.png?auto=compress&amp;h=305" alt="" height="300" width="300" />
+        </div>
+        <div class="information">
+            <h1>camara de foto </h1>
+            <p>fecha de salida: 12/5</p>
+        </div>
+        <div class="precio">
+            <div class="box-precio">
+                <span><b>3500 pesos</b></span>
+                <span class="shoping"><i class="fas fa -cart-plus"></i></span>
+            </div>
+            <div class="botton">
+                <div class="btn_group">
+                    <a href="#" class="btn addtocart">comprar</a>
+                    <a asp-area="" asp-controller="Home" asp-action="detalle" class="btn view">... </a>
+                </div>
+            </div>
+        </div>
+        <script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
+data-preference-id="218039984-18fa91d2-0a1f-4261-b11d-00f4fe007011" data-source="button">
+</script>
+
+
+
+    </div>
+
+    <div class="wrapper">
+
+
+
+
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                <li class="page-item"><a class="page-link" href="#">6</a></li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+        </nav>
+
+
+    </div>
+
+
+
+    <section class="carrito_overlay ">
+        <div class="carrito">
+            <span class="close_carrito">
+                <i class="bx bx-x"></i>
+            </span>
+            <h1>su carrito</h1>
+
+            <div class="carrito_center">
+
+                <div class="carrito_item">
+                    <img src="https://clipground.com/images/camara-fotografica-png-19.jpg" alt="imagen carrito" height="300" width="300" />
+                    <div>
+                        <h3>CAMARA  </h3>
+                        <b>3500 $</b>
+                        <div>
+                            <span>
+                                <i class="bx bxs-up-arrow"></i>
+                            </span>
+                            <p>1</p>
+                            <span>
+                                <i class="bx bxs-down-arrow"></i>
+                            </span>
+                        </div>
+                        <div>
+                            <span class="remove_item">
+                                <i class="bx bx-trash"></i>
+
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carrito_footer">
+                <h3>
+                    total: $ <span class="carrito_total">0</span>
+                </h3>
+                <button class="clear:carrito btn">remover carrito</button>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
+    <script src="https://sdk.mercadopago.com/js/v2"></script>
+</body>
